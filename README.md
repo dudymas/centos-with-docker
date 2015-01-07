@@ -10,8 +10,7 @@ vagrant up
 ## Installed
 
 * Docker (docker-io)
-* Puppet
-* Chef
+* Git
 
 ## How to build
 
