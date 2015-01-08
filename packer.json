@@ -32,6 +32,11 @@
         "cleanup.sh"
       ],
       "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'"
+    },
+    {
+      "type": "file",
+      "source": "sshd_config",
+      "destination": "/etc/ssh/sshd_config"
     }
   ],
   "post-processors": [
